@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: top;
+}
+
+button{
+    cursor: pointer;
+}
+
+body{
+    background-color: #303030;
+    color: #333;
+}
+
+
+
+header{
+    width: 200px;
+    background-color: aqua;
+
+}
+
+.container{
+    height: 950px;
+    background-color: blue;
+}
+
+
+/* 퍼센트를 쓰면 반응형으로 clac (100%-200px)  px로 쓰면 고정형 */
